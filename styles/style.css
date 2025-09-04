@@ -274,16 +274,12 @@ body {
 }
 
 @media (max-width: 768px) {
-    .main {
-        flex-direction: row;
-        align-items: flex-start;
-    }
     .cards {
         grid-template-columns: repeat(1, 1fr);
-        width: 50%;
+        width: 40%;
     }
     .history {
-        width: 50%;
-        min-height: auto;
+        width: 30%;
+        min-height: 300px;
     }
 }
